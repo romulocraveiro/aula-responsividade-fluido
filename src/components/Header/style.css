@@ -7,8 +7,9 @@ header{
     justify-content: space-between;
     height: 144px;
     color: #ffffff;
-    padding: 0 32px;
-    margin-bottom: 32px;
+    width: 86%;
+    padding: 0 4%;
+    margin-bottom: 3.2rem;
 }
 
 
@@ -16,3 +17,13 @@ header{
     width: 180px;
     cursor: pointer;
 }
+
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        height: auto;
+        margin: 2rem 0;
+    }
+}
+
